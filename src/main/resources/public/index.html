@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Bible Verse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>📖 Daily Bible Verse</h1>
+    <p class="subtitle">Get encouragement from God's Word</p>
+
+    <button id="getVerseBtn" class="verse-button">
+        Get Random Verse
+    </button>
+
+    <div id="verseCard" class="verse-card hidden">
+        <div class="verse-reference" id="verseReference"></div>
+        <div class="verse-text" id="verseText"></div>
+    </div>
+
+    <div id="loading" class="loading hidden">
+        <div class="spinner"></div>
+        <p>Fetching your verse...</p>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
